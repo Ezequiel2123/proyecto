@@ -1,5 +1,6 @@
 {
   "version": 2,
+  "alias": "www.tudominio.com",
   "builds": [
     {
       "src": "api/index.php",
@@ -11,6 +12,5 @@
       "src": "/(.*)",
       "dest": "/api/index.php"
     }
-  ],
-  "alias": "www.yourcustomdomain.com"
+  ]
 }
